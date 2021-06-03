@@ -1,0 +1,138 @@
+#background {
+ padding: 0px;
+ background-size: cover;
+ background-image: url("../img_cartes/fonds1.png");
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-attachment: fixed;
+ min-height: 872px;
+ color: aliceblue;
+ font-family: bookman, serif;
+}
+
+nav {
+ width: 100%;
+ background-color: black;
+}
+nav > ul {
+ margin: 0px;
+ padding: 0px;
+ text-transform: uppercase;
+}
+nav > ul::after {
+ content: "";
+ display: block;
+ clear: both;
+}
+nav a {
+ display: inline-block;
+ text-decoration: none;
+}
+nav > ul > li > a {
+ padding: 20px 30px;
+ color: #FFF;
+}
+nav > ul > li {
+ float: right;
+ position: relative;
+ list-style-type: none;
+}
+nav li:hover {
+ border-top: 5px solid #e44d26;
+ background-color: black;
+}
+
+h1 {
+ font-size: 50px;
+ font-family: bookman, serif;
+ text-align: center;
+}
+
+#ins {
+ list-style-type: none;
+}
+#intro {
+ font-size: 2em;
+ font-family: "Bubbler One", serif;
+}
+
+#inscription {
+  width: 10em;
+  font-size: 1em;
+}
+
+#abr {
+ cursor: pointer;
+}
+
+#login {
+/*
+ width: 25%;
+ height: 8%;
+
+ border: black solid;
+ margin: auto;
+
+/*
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+*/
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#field {
+  font-size: large;
+  width: 50em;
+}
+
+/*
+.logine {
+ width: 1%;
+ height: 5%;
+ margin: auto;
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+}
+*/
+
+/*
+.fa {
+ position: relative;
+ display: table-cell;
+ width: 59px;
+ height: 37px;
+ text-align: center;
+ vertical-align: middle;
+ font-size: 20px;
+}
+
+.main-menu:hover, nav.main-menu.expanded {
+ width: 250px;
+ overflow: visible;
+}
+
+.main-menu {
+ background: #000;
+ border-right: 1px solid #fff;
+ position: absolute;
+ top: 500px;
+ bottom: 0;
+ height: 20%;
+ left: 0;
+ width: 20px;
+ overflow: hidden;
+ transition: width 0.5s linear;
+ transform: translateZ(0) scale(1,1);
+ z-index: 1000;
+}
+*/
+

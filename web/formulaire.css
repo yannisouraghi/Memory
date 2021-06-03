@@ -1,0 +1,13 @@
+fieldset {
+    margin: 10%;
+    padding: 4%;
+    border: 20px outset black;
+    text-align: center;
+    font-family: "Bubbler One";
+    font-size: 120%;
+}
+legend {
+    font-size: 150%;
+    font-weight: bold;
+}
+

@@ -1,0 +1,63 @@
+body {
+    padding: 0px;
+    background-size: cover;
+    background-image: url("../img_cartes/fonds1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 872px;
+    color: aliceblue;
+    font-family: bookman, serif;
+}
+
+#bvn {
+    width: 15em;
+    margin-left: 5em;
+    font-size: 2em;
+}
+
+.jeu {
+    width: 10em;
+    height: 10em;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.jeu::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.button > button{
+    background-color: black;
+    font-size: 2em;
+    color: aliceblue;
+    font-family: "Bubbler One", serif;
+}
+#b2 {
+    margin-top: 20px;
+}
+button:hover {
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#abr {
+  cursor: pointer;
+  margin-left: 10em;
+  width: 7em;
+  font-size: 20px;
+  text-align: justify;
+}
+
+#abr2 {
+  cursor: pointer;
+  text-align: justify;
+  font-size: 1em;
+}
